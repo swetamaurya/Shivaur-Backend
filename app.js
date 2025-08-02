@@ -26,7 +26,7 @@ const purchaseRoutes = require("./route/purchaseRoute");
 const CompanyRuter = require("./route/companyRoute");
 
 dotenv.config()
-PORT = process.env.PORT || 2000
+PORT = process.env.PORT || 3000
 
  
 app.use(express.json());
